@@ -1,0 +1,846 @@
+year,province_th,province_en,satellite,instrument,forest_type,count,frp_sum
+2012,ตาก,TAK,Aqua,MODIS,forest_conservation,138,4499.8
+2012,ตาก,TAK,Aqua,MODIS,forest_reserve,2064,107046.3
+2012,ตาก,TAK,Aqua,MODIS,non_forest,132,3184.4
+2012,ตาก,TAK,Terra,MODIS,forest_conservation,27,253.6
+2012,ตาก,TAK,Terra,MODIS,forest_reserve,236,4614.5
+2012,ตาก,TAK,Terra,MODIS,non_forest,51,713
+2012,น่าน,NAN,Aqua,MODIS,forest_conservation,14,2232.9
+2012,น่าน,NAN,Aqua,MODIS,forest_reserve,2067,109693.6
+2012,น่าน,NAN,Aqua,MODIS,non_forest,160,6532.1
+2012,น่าน,NAN,Terra,MODIS,forest_conservation,2,153.5
+2012,น่าน,NAN,Terra,MODIS,forest_reserve,393,10467.1
+2012,น่าน,NAN,Terra,MODIS,non_forest,25,690.2
+2012,พะเยา,PHAYAO,Aqua,MODIS,forest_conservation,3,37.5
+2012,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,440,14897.2
+2012,พะเยา,PHAYAO,Aqua,MODIS,non_forest,55,921.8
+2012,พะเยา,PHAYAO,Terra,MODIS,forest_conservation,1,6.6
+2012,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,142,2201.9
+2012,พะเยา,PHAYAO,Terra,MODIS,non_forest,17,176.6
+2012,ลำปาง,LAMPANG,Aqua,MODIS,forest_conservation,8,129.5
+2012,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,897,29071.4
+2012,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,145,2609
+2012,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,111,1508.8
+2012,ลำปาง,LAMPANG,Terra,MODIS,non_forest,23,331.1
+2012,ลำพูน,LAMPHUN,Aqua,MODIS,forest_conservation,6,132.1
+2012,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,343,7592.7
+2012,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,81,1504
+2012,ลำพูน,LAMPHUN,Terra,MODIS,forest_conservation,1,7
+2012,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,66,900.2
+2012,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,15,179
+2012,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_conservation,19,314.8
+2012,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,1276,42135.8
+2012,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,201,3670.9
+2012,เชียงราย,CHIANG RAI,Terra,MODIS,forest_conservation,1,8.9
+2012,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,365,7751
+2012,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,93,1308.8
+2012,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,24,365.5
+2012,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,2387,109228.8
+2012,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,141,5934.4
+2012,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_conservation,11,129.4
+2012,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,417,6924.1
+2012,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,23,303
+2012,แพร่,PHRAE,Aqua,MODIS,forest_conservation,4,59.9
+2012,แพร่,PHRAE,Aqua,MODIS,forest_reserve,541,17859.2
+2012,แพร่,PHRAE,Aqua,MODIS,non_forest,94,1974.8
+2012,แพร่,PHRAE,Terra,MODIS,forest_reserve,47,857.8
+2012,แพร่,PHRAE,Terra,MODIS,non_forest,26,467.4
+2012,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,372,11265.5
+2012,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,1888,105792.9
+2012,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,140,10865.3
+2012,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,75,774.6
+2012,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,314,4063.1
+2012,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,17,210.3
+2012,NA,NA,Aqua,MODIS,forest_conservation,450,15084.4
+2012,NA,NA,Aqua,MODIS,forest_reserve,3808,102003
+2012,NA,NA,Aqua,MODIS,non_forest,272787,11283738.8
+2012,NA,NA,Terra,MODIS,forest_conservation,131,3626.2
+2012,NA,NA,Terra,MODIS,forest_reserve,1940,31679.8
+2012,NA,NA,Terra,MODIS,non_forest,121502,2917526.2
+2013,ตาก,TAK,Aqua,MODIS,forest_conservation,106,2630.6
+2013,ตาก,TAK,Aqua,MODIS,forest_reserve,1516,87523.3
+2013,ตาก,TAK,Aqua,MODIS,non_forest,65,1557.8
+2013,ตาก,TAK,Terra,MODIS,forest_conservation,37,715.2
+2013,ตาก,TAK,Terra,MODIS,forest_reserve,162,3488.4
+2013,ตาก,TAK,Terra,MODIS,non_forest,26,522.2
+2013,น่าน,NAN,Aqua,MODIS,forest_conservation,10,311.6
+2013,น่าน,NAN,Aqua,MODIS,forest_reserve,1634,81878
+2013,น่าน,NAN,Aqua,MODIS,non_forest,135,4253.7
+2013,น่าน,NAN,Terra,MODIS,forest_reserve,349,9031.2
+2013,น่าน,NAN,Terra,MODIS,non_forest,30,394.6
+2013,พะเยา,PHAYAO,Aqua,MODIS,forest_conservation,1,13.1
+2013,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,229,10498.8
+2013,พะเยา,PHAYAO,Aqua,MODIS,non_forest,19,232
+2013,พะเยา,PHAYAO,Terra,MODIS,forest_conservation,1,4.8
+2013,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,47,2341.2
+2013,พะเยา,PHAYAO,Terra,MODIS,non_forest,9,67.3
+2013,ลำปาง,LAMPANG,Aqua,MODIS,forest_conservation,2,32.8
+2013,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,627,18761.9
+2013,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,85,1376.5
+2013,ลำปาง,LAMPANG,Terra,MODIS,forest_conservation,1,6.5
+2013,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,99,1265.9
+2013,ลำปาง,LAMPANG,Terra,MODIS,non_forest,27,346.6
+2013,ลำพูน,LAMPHUN,Aqua,MODIS,forest_conservation,2,27.6
+2013,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,206,5362.3
+2013,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,53,1212.3
+2013,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,53,747
+2013,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,15,193.1
+2013,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_conservation,5,130.8
+2013,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,847,24989.2
+2013,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,112,2318.9
+2013,เชียงราย,CHIANG RAI,Terra,MODIS,forest_conservation,2,21.6
+2013,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,244,5562.1
+2013,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,35,671.8
+2013,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,15,217.9
+2013,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,1858,83750.9
+2013,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,123,4452.8
+2013,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_conservation,12,161.3
+2013,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,278,4430.2
+2013,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,18,288.7
+2013,แพร่,PHRAE,Aqua,MODIS,forest_conservation,2,28.2
+2013,แพร่,PHRAE,Aqua,MODIS,forest_reserve,386,10717.6
+2013,แพร่,PHRAE,Aqua,MODIS,non_forest,75,1637
+2013,แพร่,PHRAE,Terra,MODIS,forest_conservation,1,5.2
+2013,แพร่,PHRAE,Terra,MODIS,forest_reserve,71,1185.5
+2013,แพร่,PHRAE,Terra,MODIS,non_forest,18,524.6
+2013,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,290,8627.1
+2013,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,1831,108926.1
+2013,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,127,7025.2
+2013,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,87,979.3
+2013,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,332,4522
+2013,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,34,842.5
+2013,NA,NA,Aqua,MODIS,forest_conservation,451,12493.7
+2013,NA,NA,Aqua,MODIS,forest_reserve,4282,110910.7
+2013,NA,NA,Aqua,MODIS,non_forest,253899,10684927.5
+2013,NA,NA,Terra,MODIS,forest_conservation,218,4224
+2013,NA,NA,Terra,MODIS,forest_reserve,2624,46665.2
+2013,NA,NA,Terra,MODIS,non_forest,119364,2973933.6
+2014,ตาก,TAK,Aqua,MODIS,forest_conservation,94,1987.6
+2014,ตาก,TAK,Aqua,MODIS,forest_reserve,1899,109256.9
+2014,ตาก,TAK,Aqua,MODIS,non_forest,86,2059.2
+2014,ตาก,TAK,Terra,MODIS,forest_conservation,31,351
+2014,ตาก,TAK,Terra,MODIS,forest_reserve,319,5341.2
+2014,ตาก,TAK,Terra,MODIS,non_forest,43,1535.4
+2014,น่าน,NAN,Aqua,MODIS,forest_conservation,7,333.5
+2014,น่าน,NAN,Aqua,MODIS,forest_reserve,1169,51852.1
+2014,น่าน,NAN,Aqua,MODIS,non_forest,113,3961.1
+2014,น่าน,NAN,Terra,MODIS,forest_conservation,2,83.4
+2014,น่าน,NAN,Terra,MODIS,forest_reserve,310,7289.8
+2014,น่าน,NAN,Terra,MODIS,non_forest,34,389.4
+2014,พะเยา,PHAYAO,Aqua,MODIS,forest_conservation,2,26.5
+2014,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,287,7166.2
+2014,พะเยา,PHAYAO,Aqua,MODIS,non_forest,49,594.1
+2014,พะเยา,PHAYAO,Terra,MODIS,forest_conservation,1,8.2
+2014,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,102,1314.9
+2014,พะเยา,PHAYAO,Terra,MODIS,non_forest,19,246.5
+2014,ลำปาง,LAMPANG,Aqua,MODIS,forest_conservation,2,20.3
+2014,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,759,19387.7
+2014,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,110,2245.8
+2014,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,168,2657
+2014,ลำปาง,LAMPANG,Terra,MODIS,non_forest,26,291
+2014,ลำพูน,LAMPHUN,Aqua,MODIS,forest_conservation,1,21.8
+2014,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,258,5445.5
+2014,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,68,1691.9
+2014,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,97,2150.2
+2014,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,26,381
+2014,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_conservation,5,90.1
+2014,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,610,18879.8
+2014,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,103,1705.7
+2014,เชียงราย,CHIANG RAI,Terra,MODIS,forest_conservation,3,25.1
+2014,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,184,5032.2
+2014,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,33,369.7
+2014,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,7,145.8
+2014,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,1865,97634.8
+2014,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,114,3422.2
+2014,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_conservation,4,53.4
+2014,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,425,8198.8
+2014,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,24,553.2
+2014,แพร่,PHRAE,Aqua,MODIS,forest_conservation,3,47.2
+2014,แพร่,PHRAE,Aqua,MODIS,forest_reserve,363,10256.1
+2014,แพร่,PHRAE,Aqua,MODIS,non_forest,68,1869.5
+2014,แพร่,PHRAE,Terra,MODIS,forest_reserve,95,2769.1
+2014,แพร่,PHRAE,Terra,MODIS,non_forest,35,859.4
+2014,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,282,9371.4
+2014,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,1575,96626
+2014,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,124,5905.6
+2014,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,51,777.9
+2014,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,349,5893.2
+2014,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,40,1214.8
+2014,NA,NA,Aqua,MODIS,forest_conservation,453,12224.3
+2014,NA,NA,Aqua,MODIS,forest_reserve,3792,92580
+2014,NA,NA,Aqua,MODIS,non_forest,294340,12286646.8
+2014,NA,NA,Terra,MODIS,forest_conservation,240,3960.8
+2014,NA,NA,Terra,MODIS,forest_reserve,2627,41894.3
+2014,NA,NA,Terra,MODIS,non_forest,143135,3826272
+2015,ตาก,TAK,Aqua,MODIS,forest_conservation,34,934.1
+2015,ตาก,TAK,Aqua,MODIS,forest_reserve,1202,74189.8
+2015,ตาก,TAK,Aqua,MODIS,non_forest,64,1194
+2015,ตาก,TAK,Terra,MODIS,forest_conservation,13,112.1
+2015,ตาก,TAK,Terra,MODIS,forest_reserve,179,3029.1
+2015,ตาก,TAK,Terra,MODIS,non_forest,27,428.6
+2015,น่าน,NAN,Aqua,MODIS,forest_conservation,9,207.4
+2015,น่าน,NAN,Aqua,MODIS,forest_reserve,980,47048.9
+2015,น่าน,NAN,Aqua,MODIS,non_forest,82,2482.2
+2015,น่าน,NAN,Terra,MODIS,forest_conservation,4,259.5
+2015,น่าน,NAN,Terra,MODIS,forest_reserve,313,7805.4
+2015,น่าน,NAN,Terra,MODIS,non_forest,18,281.8
+2015,พะเยา,PHAYAO,Aqua,MODIS,forest_conservation,3,27.5
+2015,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,160,4143.2
+2015,พะเยา,PHAYAO,Aqua,MODIS,non_forest,31,376.4
+2015,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,39,510.8
+2015,พะเยา,PHAYAO,Terra,MODIS,non_forest,11,88.9
+2015,ลำปาง,LAMPANG,Aqua,MODIS,forest_conservation,1,7.9
+2015,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,557,11709.2
+2015,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,71,1488
+2015,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,143,1571.4
+2015,ลำปาง,LAMPANG,Terra,MODIS,non_forest,20,252.5
+2015,ลำพูน,LAMPHUN,Aqua,MODIS,forest_conservation,3,59.8
+2015,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,213,4096.5
+2015,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,46,751.9
+2015,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,90,2700.1
+2015,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,18,229.2
+2015,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_conservation,6,83.2
+2015,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,596,17764.4
+2015,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,114,1808.4
+2015,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,212,4027.1
+2015,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,30,304.9
+2015,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,11,143.7
+2015,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,1592,65614.9
+2015,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,81,2033.1
+2015,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_conservation,7,111.4
+2015,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,379,5166.3
+2015,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,22,260.8
+2015,แพร่,PHRAE,Aqua,MODIS,forest_conservation,4,79.8
+2015,แพร่,PHRAE,Aqua,MODIS,forest_reserve,307,7947.2
+2015,แพร่,PHRAE,Aqua,MODIS,non_forest,56,930.1
+2015,แพร่,PHRAE,Terra,MODIS,forest_reserve,96,1220.6
+2015,แพร่,PHRAE,Terra,MODIS,non_forest,8,93.1
+2015,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,266,9581.9
+2015,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,1492,94162.6
+2015,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,79,6310.4
+2015,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,85,972.4
+2015,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,395,6525
+2015,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,30,370
+2015,NA,NA,Aqua,MODIS,forest_conservation,394,12086.2
+2015,NA,NA,Aqua,MODIS,forest_reserve,3194,67885.9
+2015,NA,NA,Aqua,MODIS,non_forest,296384,12659103.3
+2015,NA,NA,Terra,MODIS,forest_conservation,117,1917.5
+2015,NA,NA,Terra,MODIS,forest_reserve,2048,30895.1
+2015,NA,NA,Terra,MODIS,non_forest,151264,4276115.4
+2016,ตาก,TAK,Aqua,MODIS,forest_conservation,34,599.7
+2016,ตาก,TAK,Aqua,MODIS,forest_reserve,1226,55117.3
+2016,ตาก,TAK,Aqua,MODIS,non_forest,63,1358.6
+2016,ตาก,TAK,Terra,MODIS,forest_conservation,10,121.8
+2016,ตาก,TAK,Terra,MODIS,forest_reserve,250,6307.2
+2016,ตาก,TAK,Terra,MODIS,non_forest,20,262.1
+2016,น่าน,NAN,Aqua,MODIS,forest_conservation,3,112.6
+2016,น่าน,NAN,Aqua,MODIS,forest_reserve,781,26044.3
+2016,น่าน,NAN,Aqua,MODIS,non_forest,42,882
+2016,น่าน,NAN,Terra,MODIS,forest_conservation,3,267.2
+2016,น่าน,NAN,Terra,MODIS,forest_reserve,346,10677.8
+2016,น่าน,NAN,Terra,MODIS,non_forest,19,242.3
+2016,พะเยา,PHAYAO,Aqua,MODIS,forest_conservation,3,28.5
+2016,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,234,4830.2
+2016,พะเยา,PHAYAO,Aqua,MODIS,non_forest,50,1006.9
+2016,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,113,1879.7
+2016,พะเยา,PHAYAO,Terra,MODIS,non_forest,25,291.9
+2016,ลำปาง,LAMPANG,Aqua,MODIS,forest_conservation,1,6
+2016,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,517,10479
+2016,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,55,1018.1
+2016,ลำปาง,LAMPANG,Terra,MODIS,forest_conservation,3,125.9
+2016,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,251,3055.8
+2016,ลำปาง,LAMPANG,Terra,MODIS,non_forest,30,598.4
+2016,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,148,2504.3
+2016,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,27,375.3
+2016,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,73,1201.5
+2016,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,16,250.6
+2016,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_conservation,9,106.7
+2016,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,786,19613.7
+2016,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,124,1833.8
+2016,เชียงราย,CHIANG RAI,Terra,MODIS,forest_conservation,4,36.2
+2016,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,538,10322.9
+2016,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,43,624.4
+2016,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,18,391.3
+2016,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,1175,68650.8
+2016,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,80,2797.8
+2016,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_conservation,24,434.8
+2016,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,745,14431.8
+2016,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,20,278.6
+2016,แพร่,PHRAE,Aqua,MODIS,forest_conservation,6,70.1
+2016,แพร่,PHRAE,Aqua,MODIS,forest_reserve,441,9073
+2016,แพร่,PHRAE,Aqua,MODIS,non_forest,52,911.7
+2016,แพร่,PHRAE,Terra,MODIS,forest_conservation,3,28.5
+2016,แพร่,PHRAE,Terra,MODIS,forest_reserve,261,3401.4
+2016,แพร่,PHRAE,Terra,MODIS,non_forest,37,1229.4
+2016,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,166,4933
+2016,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,826,63013.6
+2016,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,51,2397.1
+2016,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,53,880.1
+2016,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,294,4041.1
+2016,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,13,148.8
+2016,NA,NA,Aqua,MODIS,forest_conservation,681,25242
+2016,NA,NA,Aqua,MODIS,forest_reserve,4182,99821.9
+2016,NA,NA,Aqua,MODIS,non_forest,215138,8972027.9
+2016,NA,NA,Terra,MODIS,forest_conservation,414,7989.2
+2016,NA,NA,Terra,MODIS,forest_reserve,3049,48718.9
+2016,NA,NA,Terra,MODIS,non_forest,97834,2163268
+2017,ตาก,TAK,Aqua,MODIS,forest_conservation,74,1610.2
+2017,ตาก,TAK,Aqua,MODIS,forest_reserve,731,23491.8
+2017,ตาก,TAK,Aqua,MODIS,non_forest,54,893.1
+2017,ตาก,TAK,Terra,MODIS,forest_conservation,47,625.8
+2017,ตาก,TAK,Terra,MODIS,forest_reserve,190,2395.5
+2017,ตาก,TAK,Terra,MODIS,non_forest,27,444.2
+2017,น่าน,NAN,Aqua,MODIS,forest_reserve,420,15580.7
+2017,น่าน,NAN,Aqua,MODIS,non_forest,41,1558.3
+2017,น่าน,NAN,Terra,MODIS,forest_reserve,149,1935.2
+2017,น่าน,NAN,Terra,MODIS,non_forest,17,162.4
+2017,พะเยา,PHAYAO,Aqua,MODIS,forest_conservation,3,64.9
+2017,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,68,1401.5
+2017,พะเยา,PHAYAO,Aqua,MODIS,non_forest,34,279.7
+2017,พะเยา,PHAYAO,Terra,MODIS,forest_conservation,3,18.1
+2017,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,24,438
+2017,พะเยา,PHAYAO,Terra,MODIS,non_forest,7,50
+2017,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,414,7257.6
+2017,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,81,1240.9
+2017,ลำปาง,LAMPANG,Terra,MODIS,forest_conservation,1,11.8
+2017,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,168,2230.8
+2017,ลำปาง,LAMPANG,Terra,MODIS,non_forest,16,196.9
+2017,ลำพูน,LAMPHUN,Aqua,MODIS,forest_conservation,3,50.1
+2017,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,172,3774.4
+2017,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,33,582.9
+2017,ลำพูน,LAMPHUN,Terra,MODIS,forest_conservation,1,11.3
+2017,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,113,1603.7
+2017,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,19,193.9
+2017,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_conservation,1,15.5
+2017,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,147,3504.6
+2017,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,74,1019.4
+2017,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,48,821.1
+2017,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,24,249.4
+2017,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,6,85.2
+2017,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,588,12835.4
+2017,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,53,1086.6
+2017,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_conservation,5,53.9
+2017,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,253,3432.7
+2017,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,19,225.4
+2017,แพร่,PHRAE,Aqua,MODIS,forest_conservation,2,50.9
+2017,แพร่,PHRAE,Aqua,MODIS,forest_reserve,203,4142.7
+2017,แพร่,PHRAE,Aqua,MODIS,non_forest,38,734.7
+2017,แพร่,PHRAE,Terra,MODIS,forest_conservation,1,11.2
+2017,แพร่,PHRAE,Terra,MODIS,forest_reserve,76,857.8
+2017,แพร่,PHRAE,Terra,MODIS,non_forest,7,55.6
+2017,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,158,3604
+2017,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,686,18220.9
+2017,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,24,431.2
+2017,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,62,720.1
+2017,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,298,3262.9
+2017,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,10,161
+2017,NA,NA,Aqua,MODIS,forest_conservation,313,10923.5
+2017,NA,NA,Aqua,MODIS,forest_reserve,2355,49719.5
+2017,NA,NA,Aqua,MODIS,non_forest,167392,6525396.2
+2017,NA,NA,Terra,MODIS,forest_conservation,142,2623.8
+2017,NA,NA,Terra,MODIS,forest_reserve,1661,24771.7
+2017,NA,NA,Terra,MODIS,non_forest,79001,1649266.2
+2018,ตาก,TAK,Aqua,MODIS,forest_conservation,37,757.1
+2018,ตาก,TAK,Aqua,MODIS,forest_reserve,1003,45021
+2018,ตาก,TAK,Aqua,MODIS,non_forest,53,985.5
+2018,ตาก,TAK,Terra,MODIS,forest_conservation,24,427.2
+2018,ตาก,TAK,Terra,MODIS,forest_reserve,241,4254.3
+2018,ตาก,TAK,Terra,MODIS,non_forest,37,542.9
+2018,น่าน,NAN,Aqua,MODIS,forest_conservation,2,22
+2018,น่าน,NAN,Aqua,MODIS,forest_reserve,445,14157
+2018,น่าน,NAN,Aqua,MODIS,non_forest,22,310.6
+2018,น่าน,NAN,Terra,MODIS,forest_conservation,1,7.9
+2018,น่าน,NAN,Terra,MODIS,forest_reserve,95,1649.4
+2018,น่าน,NAN,Terra,MODIS,non_forest,5,68.6
+2018,พะเยา,PHAYAO,Aqua,MODIS,forest_conservation,1,8.4
+2018,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,58,1081.1
+2018,พะเยา,PHAYAO,Aqua,MODIS,non_forest,34,349.5
+2018,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,35,499.3
+2018,พะเยา,PHAYAO,Terra,MODIS,non_forest,9,78.4
+2018,ลำปาง,LAMPANG,Aqua,MODIS,forest_conservation,1,9.4
+2018,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,303,4495
+2018,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,57,674.1
+2018,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,71,599.9
+2018,ลำปาง,LAMPANG,Terra,MODIS,non_forest,12,128.6
+2018,ลำพูน,LAMPHUN,Aqua,MODIS,forest_conservation,6,86.6
+2018,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,148,2772.4
+2018,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,35,523.4
+2018,ลำพูน,LAMPHUN,Terra,MODIS,forest_conservation,1,16.6
+2018,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,61,714.2
+2018,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,17,233.3
+2018,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_conservation,1,10.7
+2018,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,166,3459.3
+2018,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,69,805.2
+2018,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,41,511.7
+2018,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,23,202.5
+2018,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,4,81.8
+2018,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,439,10272.7
+2018,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,28,445.1
+2018,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_conservation,5,57.3
+2018,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,176,2265.6
+2018,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,13,120.6
+2018,แพร่,PHRAE,Aqua,MODIS,forest_conservation,1,13.4
+2018,แพร่,PHRAE,Aqua,MODIS,forest_reserve,172,2762.4
+2018,แพร่,PHRAE,Aqua,MODIS,non_forest,39,653.1
+2018,แพร่,PHRAE,Terra,MODIS,forest_conservation,1,4.6
+2018,แพร่,PHRAE,Terra,MODIS,forest_reserve,35,469
+2018,แพร่,PHRAE,Terra,MODIS,non_forest,19,279.8
+2018,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,97,2160.9
+2018,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,468,10971
+2018,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,26,411.1
+2018,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,42,403.2
+2018,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,269,2696
+2018,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,12,122.9
+2018,NA,NA,Aqua,MODIS,forest_conservation,224,5536.9
+2018,NA,NA,Aqua,MODIS,forest_reserve,1926,36993.9
+2018,NA,NA,Aqua,MODIS,non_forest,184317,6778490.1
+2018,NA,NA,Terra,MODIS,forest_conservation,97,2193.9
+2018,NA,NA,Terra,MODIS,forest_reserve,1397,20435.1
+2018,NA,NA,Terra,MODIS,non_forest,86518,1746425.1
+2019,ตาก,TAK,Aqua,MODIS,forest_conservation,42,705.4
+2019,ตาก,TAK,Aqua,MODIS,forest_reserve,665,19343.4
+2019,ตาก,TAK,Aqua,MODIS,non_forest,79,1390.7
+2019,ตาก,TAK,Terra,MODIS,forest_conservation,37,445.4
+2019,ตาก,TAK,Terra,MODIS,forest_reserve,250,3309
+2019,ตาก,TAK,Terra,MODIS,non_forest,22,271
+2019,น่าน,NAN,Aqua,MODIS,forest_conservation,5,183
+2019,น่าน,NAN,Aqua,MODIS,forest_reserve,822,22886.3
+2019,น่าน,NAN,Aqua,MODIS,non_forest,69,2238.1
+2019,น่าน,NAN,Terra,MODIS,forest_conservation,1,14.8
+2019,น่าน,NAN,Terra,MODIS,forest_reserve,464,8831.5
+2019,น่าน,NAN,Terra,MODIS,non_forest,11,282.9
+2019,พะเยา,PHAYAO,Aqua,MODIS,forest_conservation,5,84.5
+2019,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,304,6185.7
+2019,พะเยา,PHAYAO,Aqua,MODIS,non_forest,60,1315.4
+2019,พะเยา,PHAYAO,Terra,MODIS,forest_conservation,5,47.2
+2019,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,196,3017.5
+2019,พะเยา,PHAYAO,Terra,MODIS,non_forest,33,348.5
+2019,ลำปาง,LAMPANG,Aqua,MODIS,forest_conservation,5,74.9
+2019,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,723,11992
+2019,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,74,1173.8
+2019,ลำปาง,LAMPANG,Terra,MODIS,forest_conservation,3,83.3
+2019,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,298,3706.2
+2019,ลำปาง,LAMPANG,Terra,MODIS,non_forest,25,288.5
+2019,ลำพูน,LAMPHUN,Aqua,MODIS,forest_conservation,1,20.1
+2019,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,216,3964.5
+2019,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,28,421.4
+2019,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,90,1059.9
+2019,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,15,180.8
+2019,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_conservation,8,86.6
+2019,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,992,22032.5
+2019,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,177,2716.1
+2019,เชียงราย,CHIANG RAI,Terra,MODIS,forest_conservation,6,39.6
+2019,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,862,16994.8
+2019,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,96,1202.8
+2019,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,26,468.7
+2019,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,1074,23281.5
+2019,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,68,1054.7
+2019,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_conservation,36,468.4
+2019,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,544,7789.1
+2019,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,22,305
+2019,แพร่,PHRAE,Aqua,MODIS,forest_conservation,5,58.1
+2019,แพร่,PHRAE,Aqua,MODIS,forest_reserve,372,6380.1
+2019,แพร่,PHRAE,Aqua,MODIS,non_forest,62,929.5
+2019,แพร่,PHRAE,Terra,MODIS,forest_conservation,6,82.1
+2019,แพร่,PHRAE,Terra,MODIS,forest_reserve,275,4004.8
+2019,แพร่,PHRAE,Terra,MODIS,non_forest,14,248.4
+2019,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,224,4601.2
+2019,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,741,19596.3
+2019,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,37,685.4
+2019,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,146,1388.2
+2019,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,459,5610.4
+2019,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,28,368.1
+2019,NA,NA,Aqua,MODIS,forest_conservation,648,18299
+2019,NA,NA,Aqua,MODIS,forest_reserve,4984,116862.7
+2019,NA,NA,Aqua,MODIS,non_forest,244015,10135918.7
+2019,NA,NA,Terra,MODIS,forest_conservation,403,7120.4
+2019,NA,NA,Terra,MODIS,forest_reserve,3742,59151.7
+2019,NA,NA,Terra,MODIS,non_forest,124050,2983287.7
+2020,ตาก,TAK,Aqua,MODIS,forest_conservation,48,548.1
+2020,ตาก,TAK,Aqua,MODIS,forest_reserve,837,21630.7
+2020,ตาก,TAK,Aqua,MODIS,non_forest,79,1625.3
+2020,ตาก,TAK,Terra,MODIS,forest_conservation,31,314.7
+2020,ตาก,TAK,Terra,MODIS,forest_reserve,449,6313.6
+2020,ตาก,TAK,Terra,MODIS,non_forest,22,277.3
+2020,น่าน,NAN,Aqua,MODIS,forest_conservation,1,11.6
+2020,น่าน,NAN,Aqua,MODIS,forest_reserve,542,13315.7
+2020,น่าน,NAN,Aqua,MODIS,non_forest,33,546.3
+2020,น่าน,NAN,Terra,MODIS,forest_reserve,414,7242.7
+2020,น่าน,NAN,Terra,MODIS,non_forest,20,217.4
+2020,พะเยา,PHAYAO,Aqua,MODIS,forest_conservation,5,76
+2020,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,239,4784.1
+2020,พะเยา,PHAYAO,Aqua,MODIS,non_forest,94,1439.9
+2020,พะเยา,PHAYAO,Terra,MODIS,forest_conservation,2,13.6
+2020,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,136,2034
+2020,พะเยา,PHAYAO,Terra,MODIS,non_forest,27,219.8
+2020,ลำปาง,LAMPANG,Aqua,MODIS,forest_conservation,6,43.4
+2020,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,426,6583.5
+2020,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,53,936.2
+2020,ลำปาง,LAMPANG,Terra,MODIS,forest_conservation,6,59.8
+2020,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,260,2956.5
+2020,ลำปาง,LAMPANG,Terra,MODIS,non_forest,28,376.2
+2020,ลำพูน,LAMPHUN,Aqua,MODIS,forest_conservation,1,24.5
+2020,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,170,2938.5
+2020,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,29,476
+2020,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,115,1571.1
+2020,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,17,166.7
+2020,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_conservation,2,16.2
+2020,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,635,13105.8
+2020,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,119,1764.4
+2020,เชียงราย,CHIANG RAI,Terra,MODIS,forest_conservation,3,53.9
+2020,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,443,7612.2
+2020,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,67,887.3
+2020,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,24,429.4
+2020,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,1244,27859.1
+2020,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,81,2024.7
+2020,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_conservation,25,468
+2020,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,1029,14415.4
+2020,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,36,542.9
+2020,แพร่,PHRAE,Aqua,MODIS,forest_reserve,294,5571.7
+2020,แพร่,PHRAE,Aqua,MODIS,non_forest,42,597.5
+2020,แพร่,PHRAE,Terra,MODIS,forest_conservation,5,32.1
+2020,แพร่,PHRAE,Terra,MODIS,forest_reserve,149,1666.4
+2020,แพร่,PHRAE,Terra,MODIS,non_forest,25,296.8
+2020,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,186,3985.4
+2020,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,792,24629.5
+2020,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,39,864.8
+2020,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,128,1478.1
+2020,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,468,5983.6
+2020,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,25,335.1
+2020,NA,NA,Aqua,MODIS,forest_conservation,760,19744.6
+2020,NA,NA,Aqua,MODIS,forest_reserve,4035,94771.8
+2020,NA,NA,Aqua,MODIS,non_forest,191789,8103622.4
+2020,NA,NA,Terra,MODIS,forest_conservation,581,14343
+2020,NA,NA,Terra,MODIS,forest_reserve,3492,54468
+2020,NA,NA,Terra,MODIS,non_forest,98070,2253247.5
+2021,ตาก,TAK,Aqua,MODIS,forest_conservation,46,624.9
+2021,ตาก,TAK,Aqua,MODIS,forest_reserve,442,19027.4
+2021,ตาก,TAK,Aqua,MODIS,non_forest,47,1201
+2021,ตาก,TAK,Terra,MODIS,forest_conservation,41,480.4
+2021,ตาก,TAK,Terra,MODIS,forest_reserve,239,2605.6
+2021,ตาก,TAK,Terra,MODIS,non_forest,21,221.3
+2021,น่าน,NAN,Aqua,MODIS,forest_reserve,155,4445.9
+2021,น่าน,NAN,Aqua,MODIS,non_forest,30,300.2
+2021,น่าน,NAN,Terra,MODIS,forest_reserve,65,908.9
+2021,น่าน,NAN,Terra,MODIS,non_forest,5,51.9
+2021,พะเยา,PHAYAO,Aqua,MODIS,forest_conservation,2,14.6
+2021,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,76,1330.5
+2021,พะเยา,PHAYAO,Aqua,MODIS,non_forest,15,204.7
+2021,พะเยา,PHAYAO,Terra,MODIS,forest_conservation,1,8.1
+2021,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,47,484.7
+2021,พะเยา,PHAYAO,Terra,MODIS,non_forest,8,66
+2021,ลำปาง,LAMPANG,Aqua,MODIS,forest_conservation,1,9.4
+2021,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,276,4271.8
+2021,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,48,691.6
+2021,ลำปาง,LAMPANG,Terra,MODIS,forest_conservation,2,20.3
+2021,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,182,1657.3
+2021,ลำปาง,LAMPANG,Terra,MODIS,non_forest,16,181.2
+2021,ลำพูน,LAMPHUN,Aqua,MODIS,forest_conservation,1,31.8
+2021,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,160,2762.2
+2021,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,21,323.9
+2021,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,102,1006.8
+2021,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,16,197.1
+2021,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_conservation,2,41.4
+2021,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,170,3420.7
+2021,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,70,901.9
+2021,เชียงราย,CHIANG RAI,Terra,MODIS,forest_conservation,1,5.4
+2021,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,61,663.7
+2021,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,28,307.4
+2021,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,20,323
+2021,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,555,16199.2
+2021,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,36,504
+2021,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_conservation,7,88.2
+2021,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,317,10265.3
+2021,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,20,215.2
+2021,แพร่,PHRAE,Aqua,MODIS,forest_conservation,1,4.7
+2021,แพร่,PHRAE,Aqua,MODIS,forest_reserve,141,2762
+2021,แพร่,PHRAE,Aqua,MODIS,non_forest,20,206.4
+2021,แพร่,PHRAE,Terra,MODIS,forest_conservation,1,5.3
+2021,แพร่,PHRAE,Terra,MODIS,forest_reserve,80,728.4
+2021,แพร่,PHRAE,Terra,MODIS,non_forest,14,125.9
+2021,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,113,2002.7
+2021,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,705,21029
+2021,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,28,458.2
+2021,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,75,675.5
+2021,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,342,3730.3
+2021,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,16,142.2
+2021,NA,NA,Aqua,MODIS,forest_conservation,246,5608.7
+2021,NA,NA,Aqua,MODIS,forest_reserve,1911,38279.4
+2021,NA,NA,Aqua,MODIS,non_forest,205687,8114597
+2021,NA,NA,Terra,MODIS,forest_conservation,147,2021.4
+2021,NA,NA,Terra,MODIS,forest_reserve,1631,20838.7
+2021,NA,NA,Terra,MODIS,non_forest,98541,2085770.3
+2022,ตาก,TAK,Aqua,MODIS,forest_conservation,6,112.2
+2022,ตาก,TAK,Aqua,MODIS,forest_reserve,159,3960.3
+2022,ตาก,TAK,Aqua,MODIS,non_forest,22,325
+2022,ตาก,TAK,Terra,MODIS,forest_conservation,2,11.7
+2022,ตาก,TAK,Terra,MODIS,forest_reserve,42,434.7
+2022,ตาก,TAK,Terra,MODIS,non_forest,16,204
+2022,น่าน,NAN,Aqua,MODIS,forest_conservation,1,15.3
+2022,น่าน,NAN,Aqua,MODIS,forest_reserve,179,4367.5
+2022,น่าน,NAN,Aqua,MODIS,non_forest,30,412.9
+2022,น่าน,NAN,Terra,MODIS,forest_reserve,49,805.1
+2022,น่าน,NAN,Terra,MODIS,non_forest,7,59.5
+2022,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,26,641.2
+2022,พะเยา,PHAYAO,Aqua,MODIS,non_forest,20,225.8
+2022,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,9,125.6
+2022,พะเยา,PHAYAO,Terra,MODIS,non_forest,4,28.6
+2022,ลำปาง,LAMPANG,Aqua,MODIS,forest_conservation,1,9
+2022,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,186,2973
+2022,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,31,380.7
+2022,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,21,236
+2022,ลำปาง,LAMPANG,Terra,MODIS,non_forest,9,82.9
+2022,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,33,415
+2022,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,11,112.4
+2022,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,13,142.7
+2022,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,8,73.9
+2022,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_conservation,2,51.9
+2022,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,249,5560.6
+2022,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,60,731.6
+2022,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,43,488.5
+2022,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,19,169.7
+2022,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,1,20
+2022,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,239,11387
+2022,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,27,487.7
+2022,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_conservation,2,27.4
+2022,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,62,749.8
+2022,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,2,33.3
+2022,แพร่,PHRAE,Aqua,MODIS,forest_conservation,2,22.9
+2022,แพร่,PHRAE,Aqua,MODIS,forest_reserve,83,2082
+2022,แพร่,PHRAE,Aqua,MODIS,non_forest,19,306.1
+2022,แพร่,PHRAE,Terra,MODIS,forest_reserve,38,326.3
+2022,แพร่,PHRAE,Terra,MODIS,non_forest,6,55.2
+2022,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,51,1046.9
+2022,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,284,10303.8
+2022,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,14,169.3
+2022,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,23,203.6
+2022,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,157,1666.3
+2022,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,8,66.7
+2022,NA,NA,Aqua,MODIS,forest_conservation,95,2511.2
+2022,NA,NA,Aqua,MODIS,forest_reserve,685,12271.8
+2022,NA,NA,Aqua,MODIS,non_forest,130485,4581224.4
+2022,NA,NA,Terra,MODIS,forest_conservation,45,575.3
+2022,NA,NA,Terra,MODIS,forest_reserve,701,9457.1
+2022,NA,NA,Terra,MODIS,non_forest,72441,1257214.8
+2023,ตาก,TAK,Aqua,MODIS,forest_conservation,52,985
+2023,ตาก,TAK,Aqua,MODIS,forest_reserve,693,16169.9
+2023,ตาก,TAK,Aqua,MODIS,non_forest,71,1459
+2023,ตาก,TAK,Terra,MODIS,forest_conservation,39,380.6
+2023,ตาก,TAK,Terra,MODIS,forest_reserve,253,2934.3
+2023,ตาก,TAK,Terra,MODIS,non_forest,28,482.3
+2023,น่าน,NAN,Aqua,MODIS,forest_conservation,3,91.1
+2023,น่าน,NAN,Aqua,MODIS,forest_reserve,1078,24230.4
+2023,น่าน,NAN,Aqua,MODIS,non_forest,85,1621.9
+2023,น่าน,NAN,Terra,MODIS,forest_conservation,1,16
+2023,น่าน,NAN,Terra,MODIS,forest_reserve,756,10845
+2023,น่าน,NAN,Terra,MODIS,non_forest,33,455.7
+2023,พะเยา,PHAYAO,Aqua,MODIS,forest_conservation,18,351.4
+2023,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,314,5742.8
+2023,พะเยา,PHAYAO,Aqua,MODIS,non_forest,46,517.2
+2023,พะเยา,PHAYAO,Terra,MODIS,forest_conservation,17,223.9
+2023,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,227,3107.8
+2023,พะเยา,PHAYAO,Terra,MODIS,non_forest,19,263.9
+2023,ลำปาง,LAMPANG,Aqua,MODIS,forest_conservation,8,154.1
+2023,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,484,6485.4
+2023,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,32,392
+2023,ลำปาง,LAMPANG,Terra,MODIS,forest_conservation,10,98.5
+2023,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,206,2289.7
+2023,ลำปาง,LAMPANG,Terra,MODIS,non_forest,27,393.8
+2023,ลำพูน,LAMPHUN,Aqua,MODIS,forest_conservation,2,38.1
+2023,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,169,2760.5
+2023,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,15,174.6
+2023,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,97,1157.3
+2023,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,8,84
+2023,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_conservation,21,323.1
+2023,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,1141,25184.3
+2023,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,121,1890.7
+2023,เชียงราย,CHIANG RAI,Terra,MODIS,forest_conservation,8,60
+2023,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,900,13979.7
+2023,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,66,856.7
+2023,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,16,282.8
+2023,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,940,23658
+2023,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,44,843
+2023,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_conservation,14,148.2
+2023,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,464,5874.7
+2023,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,9,78.8
+2023,แพร่,PHRAE,Aqua,MODIS,forest_conservation,1,12.7
+2023,แพร่,PHRAE,Aqua,MODIS,forest_reserve,376,5849.8
+2023,แพร่,PHRAE,Aqua,MODIS,non_forest,50,652.4
+2023,แพร่,PHRAE,Terra,MODIS,forest_conservation,2,25.8
+2023,แพร่,PHRAE,Terra,MODIS,forest_reserve,239,2353.3
+2023,แพร่,PHRAE,Terra,MODIS,non_forest,13,167.5
+2023,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,139,2425.8
+2023,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,765,30787.3
+2023,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,30,1760.3
+2023,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,74,611.9
+2023,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,330,3004.4
+2023,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,22,195.4
+2023,NA,NA,Aqua,MODIS,forest_conservation,784,25785.8
+2023,NA,NA,Aqua,MODIS,forest_reserve,3811,76818.4
+2023,NA,NA,Aqua,MODIS,non_forest,240668,9363126.8
+2023,NA,NA,Terra,MODIS,forest_conservation,511,11272.4
+2023,NA,NA,Terra,MODIS,forest_reserve,3105,44872.6
+2023,NA,NA,Terra,MODIS,non_forest,112138,2298550.8
+2024,ตาก,TAK,Aqua,MODIS,forest_conservation,40,646.9
+2024,ตาก,TAK,Aqua,MODIS,forest_reserve,514,13190.6
+2024,ตาก,TAK,Aqua,MODIS,non_forest,27,525.3
+2024,ตาก,TAK,Terra,MODIS,forest_conservation,18,160.9
+2024,ตาก,TAK,Terra,MODIS,forest_reserve,192,2423.6
+2024,ตาก,TAK,Terra,MODIS,non_forest,9,121
+2024,น่าน,NAN,Aqua,MODIS,forest_reserve,555,13057.9
+2024,น่าน,NAN,Aqua,MODIS,non_forest,47,770.8
+2024,น่าน,NAN,Terra,MODIS,forest_reserve,255,3214.7
+2024,น่าน,NAN,Terra,MODIS,non_forest,28,446.1
+2024,พะเยา,PHAYAO,Aqua,MODIS,forest_conservation,3,23.8
+2024,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,151,2266.5
+2024,พะเยา,PHAYAO,Aqua,MODIS,non_forest,48,710.6
+2024,พะเยา,PHAYAO,Terra,MODIS,forest_conservation,3,28.8
+2024,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,71,885.9
+2024,พะเยา,PHAYAO,Terra,MODIS,non_forest,10,94.1
+2024,ลำปาง,LAMPANG,Aqua,MODIS,forest_conservation,7,79.4
+2024,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,439,6030.2
+2024,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,57,802.2
+2024,ลำปาง,LAMPANG,Terra,MODIS,forest_conservation,5,44.9
+2024,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,178,1671.5
+2024,ลำปาง,LAMPANG,Terra,MODIS,non_forest,14,305.4
+2024,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,134,1993.8
+2024,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,21,286.6
+2024,ลำพูน,LAMPHUN,Terra,MODIS,forest_conservation,1,6.2
+2024,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,78,835.7
+2024,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,7,86
+2024,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,417,9155.8
+2024,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,79,1199.4
+2024,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,239,3792.7
+2024,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,33,500.1
+2024,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,22,446
+2024,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,955,29980.9
+2024,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,46,838.9
+2024,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_conservation,22,397.3
+2024,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,538,6975.5
+2024,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,22,245.6
+2024,แพร่,PHRAE,Aqua,MODIS,forest_reserve,200,3278.3
+2024,แพร่,PHRAE,Aqua,MODIS,non_forest,39,521.5
+2024,แพร่,PHRAE,Terra,MODIS,forest_reserve,73,767.6
+2024,แพร่,PHRAE,Terra,MODIS,non_forest,10,111.1
+2024,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,169,3879.3
+2024,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,845,33983.2
+2024,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,46,2106.2
+2024,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,86,814
+2024,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,415,6236.1
+2024,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,3,63.1
+2024,NA,NA,Aqua,MODIS,forest_conservation,491,18617.3
+2024,NA,NA,Aqua,MODIS,forest_reserve,2433,49787.4
+2024,NA,NA,Aqua,MODIS,non_forest,199443,7258327.4
+2024,NA,NA,Terra,MODIS,forest_conservation,284,6587.4
+2024,NA,NA,Terra,MODIS,forest_reserve,2116,28415.5
+2024,NA,NA,Terra,MODIS,non_forest,92310,1758528.9
+2025,ตาก,TAK,Aqua,MODIS,forest_conservation,49,804.4
+2025,ตาก,TAK,Aqua,MODIS,forest_reserve,603,14456.2
+2025,ตาก,TAK,Aqua,MODIS,non_forest,45,735.3
+2025,ตาก,TAK,Terra,MODIS,forest_conservation,32,369.7
+2025,ตาก,TAK,Terra,MODIS,forest_reserve,239,2490.4
+2025,ตาก,TAK,Terra,MODIS,non_forest,19,180.4
+2025,น่าน,NAN,Aqua,MODIS,forest_reserve,447,10492.1
+2025,น่าน,NAN,Aqua,MODIS,non_forest,34,550.1
+2025,น่าน,NAN,Terra,MODIS,forest_reserve,202,2256.1
+2025,น่าน,NAN,Terra,MODIS,non_forest,5,46.3
+2025,พะเยา,PHAYAO,Aqua,MODIS,forest_conservation,6,46.4
+2025,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,135,2191.2
+2025,พะเยา,PHAYAO,Aqua,MODIS,non_forest,30,386.2
+2025,พะเยา,PHAYAO,Terra,MODIS,forest_conservation,3,25.5
+2025,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,78,1102.1
+2025,พะเยา,PHAYAO,Terra,MODIS,non_forest,4,38.1
+2025,ลำปาง,LAMPANG,Aqua,MODIS,forest_conservation,2,25
+2025,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,474,7720.5
+2025,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,56,872.7
+2025,ลำปาง,LAMPANG,Terra,MODIS,forest_conservation,3,38.4
+2025,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,188,1791.4
+2025,ลำปาง,LAMPANG,Terra,MODIS,non_forest,15,160.7
+2025,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,111,1903
+2025,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,16,267.5
+2025,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,95,976.9
+2025,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,16,181.4
+2025,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_conservation,1,6.8
+2025,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,174,3082
+2025,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,39,346.1
+2025,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,40,431.7
+2025,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,10,68
+2025,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,3,38.3
+2025,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,505,22319.3
+2025,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,9,153.2
+2025,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,214,2459
+2025,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,10,110.7
+2025,แพร่,PHRAE,Aqua,MODIS,forest_conservation,1,12.5
+2025,แพร่,PHRAE,Aqua,MODIS,forest_reserve,226,3423.6
+2025,แพร่,PHRAE,Aqua,MODIS,non_forest,21,368.9
+2025,แพร่,PHRAE,Terra,MODIS,forest_reserve,73,630
+2025,แพร่,PHRAE,Terra,MODIS,non_forest,3,25
+2025,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,104,2427.1
+2025,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,790,57715.9
+2025,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,78,5665.2
+2025,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,42,431.1
+2025,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,390,4114.2
+2025,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,12,119
+2025,NA,NA,Aqua,MODIS,forest_conservation,270,6791.2
+2025,NA,NA,Aqua,MODIS,forest_reserve,1965,33130.5
+2025,NA,NA,Aqua,MODIS,non_forest,163436,5053284.8
+2025,NA,NA,Terra,MODIS,forest_conservation,143,1788.1
+2025,NA,NA,Terra,MODIS,forest_reserve,1774,21407.9
+2025,NA,NA,Terra,MODIS,non_forest,62757,1038979.3
+2026,ตาก,TAK,Aqua,MODIS,forest_conservation,43,632.4
+2026,ตาก,TAK,Aqua,MODIS,forest_reserve,1463,61475.48
+2026,ตาก,TAK,Aqua,MODIS,non_forest,97,2325.49
+2026,ตาก,TAK,Terra,MODIS,forest_conservation,17,152
+2026,ตาก,TAK,Terra,MODIS,forest_reserve,261,2898.71
+2026,ตาก,TAK,Terra,MODIS,non_forest,31,396.25
+2026,น่าน,NAN,Aqua,MODIS,forest_conservation,3,43.2
+2026,น่าน,NAN,Aqua,MODIS,forest_reserve,803,13160.33
+2026,น่าน,NAN,Aqua,MODIS,non_forest,37,809.4
+2026,น่าน,NAN,Terra,MODIS,forest_reserve,407,4181.54
+2026,น่าน,NAN,Terra,MODIS,non_forest,13,118.1
+2026,พะเยา,PHAYAO,Aqua,MODIS,forest_conservation,14,227.5
+2026,พะเยา,PHAYAO,Aqua,MODIS,forest_reserve,297,4787.58
+2026,พะเยา,PHAYAO,Aqua,MODIS,non_forest,13,205.29
+2026,พะเยา,PHAYAO,Terra,MODIS,forest_conservation,3,17.4
+2026,พะเยา,PHAYAO,Terra,MODIS,forest_reserve,146,1601.94
+2026,พะเยา,PHAYAO,Terra,MODIS,non_forest,10,118.3
+2026,ลำปาง,LAMPANG,Aqua,MODIS,forest_conservation,10,190.5
+2026,ลำปาง,LAMPANG,Aqua,MODIS,forest_reserve,735,9934.25
+2026,ลำปาง,LAMPANG,Aqua,MODIS,non_forest,56,801.86
+2026,ลำปาง,LAMPANG,Terra,MODIS,forest_conservation,6,59.1
+2026,ลำปาง,LAMPANG,Terra,MODIS,forest_reserve,222,2314.32
+2026,ลำปาง,LAMPANG,Terra,MODIS,non_forest,18,180.22
+2026,ลำพูน,LAMPHUN,Aqua,MODIS,forest_reserve,181,2852.04
+2026,ลำพูน,LAMPHUN,Aqua,MODIS,non_forest,20,320.2
+2026,ลำพูน,LAMPHUN,Terra,MODIS,forest_conservation,2,17.4
+2026,ลำพูน,LAMPHUN,Terra,MODIS,forest_reserve,77,769.9
+2026,ลำพูน,LAMPHUN,Terra,MODIS,non_forest,9,93.26
+2026,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_conservation,7,63.9
+2026,เชียงราย,CHIANG RAI,Aqua,MODIS,forest_reserve,610,12837.91
+2026,เชียงราย,CHIANG RAI,Aqua,MODIS,non_forest,28,509.47
+2026,เชียงราย,CHIANG RAI,Terra,MODIS,forest_conservation,4,24.4
+2026,เชียงราย,CHIANG RAI,Terra,MODIS,forest_reserve,333,4874.39
+2026,เชียงราย,CHIANG RAI,Terra,MODIS,non_forest,21,347.66
+2026,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_conservation,12,154.9
+2026,เชียงใหม่,CHIANG MAI,Aqua,MODIS,forest_reserve,1532,60444.9
+2026,เชียงใหม่,CHIANG MAI,Aqua,MODIS,non_forest,41,821.3
+2026,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_conservation,14,115.1
+2026,เชียงใหม่,CHIANG MAI,Terra,MODIS,forest_reserve,445,4694.22
+2026,เชียงใหม่,CHIANG MAI,Terra,MODIS,non_forest,9,144.89
+2026,แพร่,PHRAE,Aqua,MODIS,forest_conservation,2,16.29
+2026,แพร่,PHRAE,Aqua,MODIS,forest_reserve,466,7229.54
+2026,แพร่,PHRAE,Aqua,MODIS,non_forest,40,478.77
+2026,แพร่,PHRAE,Terra,MODIS,forest_reserve,146,1552.74
+2026,แพร่,PHRAE,Terra,MODIS,non_forest,6,78.9
+2026,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_conservation,188,3575.4
+2026,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,forest_reserve,1380,67380.43
+2026,แม่ฮ่องสอน,MAE HONG SON,Aqua,MODIS,non_forest,117,7261.3
+2026,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_conservation,73,603.7
+2026,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,forest_reserve,440,4208.47
+2026,แม่ฮ่องสอน,MAE HONG SON,Terra,MODIS,non_forest,18,186.5
+2026,NA,NA,Aqua,MODIS,forest_conservation,682,15192.45
+2026,NA,NA,Aqua,MODIS,forest_reserve,3209,62848.75
+2026,NA,NA,Aqua,MODIS,non_forest,132786,3298345.16
+2026,NA,NA,Terra,MODIS,forest_conservation,486,10126.48
+2026,NA,NA,Terra,MODIS,forest_reserve,3636,47379.07
+2026,NA,NA,Terra,MODIS,non_forest,57206,902089.22

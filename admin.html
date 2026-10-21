@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin — Hotspot Baseline</title>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+@font-face {
+  font-family: 'CMU Serif';
+  src: url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts/cmunrm.woff') format('woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'CMU Serif';
+  src: url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts/cmunbx.woff') format('woff');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'CMU Typewriter';
+  src: url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts/cmuntt.woff') format('woff');
+}
+:root {
+  --bg:      #F7F5F0; --surface: #FFFFFF; --surface2: #F0EDE8;
+  --border:  #D8D3CB; --border-strong: #B8B0A4;
+  --text:    #1A1714; --text-dim: #6B6459;
+  --accent:  #2563A8; --fire: #C0440E; --green: #1A6B3C; --red: #B83232;
+  --font:    'CMU Serif','Sarabun',Georgia,serif;
+  --mono:    'CMU Typewriter','Courier New',monospace;
+}
+[data-theme="dark"] {
+  --bg:      #0F1923; --surface: #162130; --surface2: #1E2F42;
+  --border:  #253547; --border-strong: #3A5068;
+  --text:    #E2EAF4; --text-dim: #7A95B0;
+  --accent:  #3B9EFF; --fire: #FF6B35; --green: #2ECC71; --red: #E74C3C;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: var(--font); font-size: 14px; }
+nav {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0 28px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 54px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.06);
+}
+.nav-brand { font-size: 16px; font-weight: 600; }
+.nav-brand span { color: var(--fire); }
+.nav-sub { font-size: 12px; color: var(--text-dim); }
+.nav-link { margin-left: auto; font-size: 13px; color: var(--accent); text-decoration: none; }
+.nav-link:hover { text-decoration: underline; }
+main { max-width: 860px; margin: 0 auto; padding: 32px 24px; }
+h2 { font-size: 20px; font-weight: 600; margin-bottom: 24px; letter-spacing: .01em; }
+.section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.05);
+}
+.section-head { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 18px; }
+.section-icon { font-size: 22px; flex-shrink: 0; margin-top: 2px; }
+.section-info h3 { font-size: 15px; font-weight: 600; margin-bottom: 5px; }
+.section-info p  { font-size: 12px; color: var(--text-dim); line-height: 1.65; font-family: var(--mono); }
+.upload-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.upload-item {
+  background: var(--surface2);
+  border: 1px dashed var(--border-strong);
+  border-radius: 6px;
+  padding: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all .12s;
+}
+.upload-item:hover { border-color: var(--accent); background: #EEF4FC; }
+.upload-item.done  { border-color: var(--green); border-style: solid; background: rgba(26,107,60,.04); }
+.upload-item.err   { border-color: var(--red); border-style: solid; background: rgba(184,50,50,.04); }
+.upload-label { font-size: 12px; font-weight: 600; margin-bottom: 4px; color: var(--text); }
+.upload-sub   { font-size: 11px; color: var(--text-dim); margin-bottom: 10px; font-family: var(--mono); }
+.upload-status { font-size: 11px; margin-top: 8px; min-height: 16px; font-family: var(--mono); }
+.upload-status.ok  { color: var(--green); }
+.upload-status.bad { color: var(--red); }
+input[type=file] { display: none; }
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 32px;
+  padding: 0 14px;
+  border-radius: 4px;
+  font-family: var(--font);
+  font-size: 13px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  transition: all .12s;
+}
+.btn:hover { border-color: var(--accent); color: var(--accent); }
+.btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn-primary:hover { background: #1A4F8A; }
+.btn-danger  { border-color: var(--red); color: var(--red); background: rgba(184,50,50,.05); }
+.btn-danger:hover { background: rgba(184,50,50,.15); }
+.actions { display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
+.log-box {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 12px 14px;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-dim);
+  max-height: 200px;
+  overflow-y: auto;
+  line-height: 1.9;
+  margin-top: 14px;
+}
+.log-ok   { color: var(--green); }
+.log-err  { color: var(--red); }
+.log-info { color: var(--accent); }
+.stat-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+.stat {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 10px 16px;
+}
+.stat-label { font-size: 10px; color: var(--text-dim); margin-bottom: 3px; letter-spacing: .03em; }
+.stat-val   { font-size: 18px; font-weight: 600; font-family: var(--mono); color: var(--accent); }
+.warning {
+  background: rgba(138,92,16,.07);
+  border: 1px solid rgba(138,92,16,.25);
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-size: 12px;
+  color: #6B4A0A;
+  margin-top: 12px;
+  line-height: 1.6;
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-brand">🔥 <span>Hotspot</span> Admin</div>
+  <div class="nav-sub">จัดการข้อมูลระบบ</div>
+  <a class="nav-link" href="index.html">ไปหน้าบ้าน →</a>
+  <button id="theme-btn" onclick="toggleTheme()" style="
+    background:none; border:1px solid var(--border); border-radius:4px;
+    color:var(--text-dim); cursor:pointer; font-size:15px;
+    width:32px; height:32px; display:flex; align-items:center;
+    justify-content:center; margin-left:8px;
+  " title="สลับธีม">🌙</button>
+</nav>
+
+<main>
+  <h2>จัดการข้อมูล</h2>
+
+  <!-- MODIS -->
+  <div class="section">
+    <div class="section-head">
+      <div class="section-icon">📡</div>
+      <div class="section-info">
+        <h3>ข้อมูล Hotspot MODIS</h3>
+        <p>ไฟล์ CSV จาก R Script: hotspot_forest_daily.csv, hotspot_forest_monthly.csv, hotspot_forest_yearly.csv<br>columns: year, month, day, province_en, province_th, satellite, forest_type, count, frp_mean, frp_sum</p>
+      </div>
+    </div>
+    <div class="upload-grid">
+      <div class="upload-item" id="ui-modis-daily" onclick="document.getElementById('fi-modis-daily').click()">
+        <div class="upload-label">Daily CSV</div>
+        <div class="upload-sub">hotspot_forest_daily.csv</div>
+        <button class="btn" style="font-size:12px" onclick="event.stopPropagation();document.getElementById('fi-modis-daily').click()">เลือกไฟล์</button>
+        <div class="upload-status" id="st-modis-daily"></div>
+        <input type="file" id="fi-modis-daily" accept=".csv" onchange="handleUpload(this,'modis-daily')">
+      </div>
+      <div class="upload-item" id="ui-modis-monthly" onclick="document.getElementById('fi-modis-monthly').click()">
+        <div class="upload-label">Monthly CSV</div>
+        <div class="upload-sub">hotspot_forest_monthly.csv</div>
+        <button class="btn" style="font-size:12px" onclick="event.stopPropagation()">เลือกไฟล์</button>
+        <div class="upload-status" id="st-modis-monthly"></div>
+        <input type="file" id="fi-modis-monthly" accept=".csv" onchange="handleUpload(this,'modis-monthly')">
+      </div>
+      <div class="upload-item" id="ui-modis-yearly" onclick="document.getElementById('fi-modis-yearly').click()">
+        <div class="upload-label">Yearly CSV</div>
+        <div class="upload-sub">hotspot_forest_yearly.csv</div>
+        <button class="btn" style="font-size:12px" onclick="event.stopPropagation()">เลือกไฟล์</button>
+        <div class="upload-status" id="st-modis-yearly"></div>
+        <input type="file" id="fi-modis-yearly" accept=".csv" onchange="handleUpload(this,'modis-yearly')">
+      </div>
+    </div>
+    <div class="stat-row" id="stats-modis"></div>
+  </div>
+
+  <!-- VIIRS -->
+  <div class="section">
+    <div class="section-head">
+      <div class="section-icon">🛰️</div>
+      <div class="section-info">
+        <h3>ข้อมูล Hotspot VIIRs</h3>
+        <p>ไฟล์ CSV จาก R Script สำหรับ VIIRs sensor (รูปแบบเดียวกับ MODIS)</p>
+      </div>
+    </div>
+    <div class="upload-grid">
+      <div class="upload-item" id="ui-viirs-daily" onclick="document.getElementById('fi-viirs-daily').click()">
+        <div class="upload-label">Daily CSV</div>
+        <div class="upload-sub">hotspot_forest_daily.csv (VIIRs)</div>
+        <button class="btn" style="font-size:12px" onclick="event.stopPropagation()">เลือกไฟล์</button>
+        <div class="upload-status" id="st-viirs-daily"></div>
+        <input type="file" id="fi-viirs-daily" accept=".csv" onchange="handleUpload(this,'viirs-daily')">
+      </div>
+      <div class="upload-item" id="ui-viirs-monthly" onclick="document.getElementById('fi-viirs-monthly').click()">
+        <div class="upload-label">Monthly CSV</div>
+        <div class="upload-sub">hotspot_forest_monthly.csv (VIIRs)</div>
+        <button class="btn" style="font-size:12px" onclick="event.stopPropagation()">เลือกไฟล์</button>
+        <div class="upload-status" id="st-viirs-monthly"></div>
+        <input type="file" id="fi-viirs-monthly" accept=".csv" onchange="handleUpload(this,'viirs-monthly')">
+      </div>
+      <div class="upload-item" id="ui-viirs-yearly" onclick="document.getElementById('fi-viirs-yearly').click()">
+        <div class="upload-label">Yearly CSV</div>
+        <div class="upload-sub">hotspot_forest_yearly.csv (VIIRs)</div>
+        <button class="btn" style="font-size:12px" onclick="event.stopPropagation()">เลือกไฟล์</button>
+        <div class="upload-status" id="st-viirs-yearly"></div>
+        <input type="file" id="fi-viirs-yearly" accept=".csv" onchange="handleUpload(this,'viirs-yearly')">
+      </div>
+    </div>
+    <div class="stat-row" id="stats-viirs"></div>
+  </div>
+
+  <!-- ENSO -->
+  <div class="section">
+    <div class="section-head">
+      <div class="section-icon">🌊</div>
+      <div class="section-info">
+        <h3>ENSO Configuration</h3>
+        <p>enso_config.csv — columns: year, smoke_avg, smoke_type, smoke_category, non_smoke_avg, non_smoke_type, non_smoke_category, annual_avg, annual_type, annual_category</p>
+      </div>
+    </div>
+    <div class="upload-item" id="ui-enso" onclick="document.getElementById('fi-enso').click()" style="text-align:left;display:flex;align-items:center;gap:16px">
+      <div style="flex:1">
+        <div class="upload-label">enso_config.csv</div>
+        <div class="upload-sub">ข้อมูล ENSO 2012–2026 (3 periods)</div>
+      </div>
+      <button class="btn" style="font-size:12px" onclick="event.stopPropagation();document.getElementById('fi-enso').click()">เลือกไฟล์</button>
+      <input type="file" id="fi-enso" accept=".csv" onchange="handleUpload(this,'enso')">
+    </div>
+    <div class="upload-status" id="st-enso" style="margin-top:8px"></div>
+    <div id="enso-preview" style="margin-top:10px"></div>
+  </div>
+
+  <!-- GeoJSON -->
+  <div class="section">
+    <div class="section-head">
+      <div class="section-icon">🗺️</div>
+      <div class="section-info">
+        <h3>ขอบเขตพื้นที่ (GeoJSON)</h3>
+        <p>ไฟล์ขอบเขตสำหรับอ้างอิงในระบบ — บันทึกชื่อไฟล์ไว้ใช้ในอนาคต</p>
+      </div>
+    </div>
+    <div class="upload-grid">
+      <div class="upload-item" id="ui-reserve" onclick="document.getElementById('fi-reserve').click()">
+        <div class="upload-label">ป่าสงวนแห่งชาติ</div>
+        <div class="upload-sub">Reserved Forest.geojson</div>
+        <button class="btn" style="font-size:12px" onclick="event.stopPropagation()">เลือกไฟล์</button>
+        <div class="upload-status" id="st-reserve"></div>
+        <input type="file" id="fi-reserve" accept=".geojson,.json" onchange="handleUpload(this,'reserve')">
+      </div>
+      <div class="upload-item" id="ui-conserve" onclick="document.getElementById('fi-conserve').click()">
+        <div class="upload-label">ป่าอนุรักษ์</div>
+        <div class="upload-sub">Protected Area.geojson</div>
+        <button class="btn" style="font-size:12px" onclick="event.stopPropagation()">เลือกไฟล์</button>
+        <div class="upload-status" id="st-conserve"></div>
+        <input type="file" id="fi-conserve" accept=".geojson,.json" onchange="handleUpload(this,'conserve')">
+      </div>
+      <div class="upload-item" id="ui-province" onclick="document.getElementById('fi-province').click()">
+        <div class="upload-label">ขอบเขต 9 จังหวัด</div>
+        <div class="upload-sub">9UNT_subprovince.geojson</div>
+        <button class="btn" style="font-size:12px" onclick="event.stopPropagation()">เลือกไฟล์</button>
+        <div class="upload-status" id="st-province"></div>
+        <input type="file" id="fi-province" accept=".geojson,.json" onchange="handleUpload(this,'province')">
+      </div>
+    </div>
+    <div class="warning">⚠ GeoJSON ใช้อ้างอิงใน Dashboard — การแยกพื้นที่ป่าทำด้วย R Script แล้ว ไม่ได้ประมวลผลซ้ำในเว็บ</div>
+  </div>
+
+  <!-- ACTIONS -->
+  <div class="section">
+    <div class="section-head">
+      <div class="section-icon">⚙️</div>
+      <div class="section-info">
+        <h3>การจัดการระบบ</h3>
+        <p>ตรวจสอบสถานะข้อมูลที่โหลดอยู่ และล้างข้อมูลเมื่อต้องการ reset</p>
+      </div>
+    </div>
+    <div class="actions">
+      <button class="btn btn-primary" onclick="checkStatus()">ตรวจสอบสถานะ</button>
+      <button class="btn btn-danger" onclick="clearAll()">ล้างข้อมูลทั้งหมด</button>
+      <a class="btn" href="index.html">ไปหน้าบ้าน →</a>
+    </div>
+    <div class="log-box" id="log-box">
+      <div class="log-info">รอคำสั่ง…</div>
+    </div>
+  </div>
+
+</main>
+
+<script>
+const STORE_KEYS = {
+  'modis-daily':'hotspot_modis_daily','modis-monthly':'hotspot_modis_monthly',
+  'modis-yearly':'hotspot_modis_yearly','viirs-daily':'hotspot_viirs_daily',
+  'viirs-monthly':'hotspot_viirs_monthly','viirs-yearly':'hotspot_viirs_yearly',
+  'enso':'enso_config','reserve':'geojson_reserve',
+  'conserve':'geojson_conserve','province':'geojson_province',
+};
+
+function log(msg,type='info') {
+  const box=document.getElementById('log-box');
+  const div=document.createElement('div');
+  div.className=type==='ok'?'log-ok':type==='err'?'log-err':'log-info';
+  div.textContent=`[${new Date().toLocaleTimeString('th-TH')}] ${msg}`;
+  box.appendChild(div); box.scrollTop=box.scrollHeight;
+}
+
+function parseCSV(text) {
+  const lines=text.trim().split('\n');
+  const headers=lines[0].split(',').map(h=>h.trim().replace(/^"|"$/g,''));
+  return lines.slice(1).map(line=>{
+    const vals=line.split(',');
+    const obj={};
+    headers.forEach((h,i)=>{ const v=(vals[i]||'').trim().replace(/^"|"$/g,''); obj[h]=isNaN(v)||v===''?v:+v; });
+    return obj;
+  });
+}
+
+function handleUpload(input,key) {
+  const file=input.files[0]; if (!file) return;
+  const reader=new FileReader();
+  const stEl=document.getElementById(`st-${key}`);
+  const uiEl=document.getElementById(`ui-${key}`);
+  reader.onload=e=>{
+    try {
+      const text=e.target.result;
+      const sk=STORE_KEYS[key];
+      if (key==='reserve'||key==='conserve'||key==='province') {
+        localStorage.setItem(sk,JSON.stringify({filename:file.name,size:file.size}));
+        stEl.textContent=`✓ ${file.name} (${(file.size/1024).toFixed(0)} KB)`;
+        stEl.className='upload-status ok'; uiEl.classList.add('done');
+        log(`GeoJSON: ${file.name}`, 'ok'); return;
+      }
+      const data=parseCSV(text);
+      if (!data.length) throw new Error('ไม่มีข้อมูล');
+      localStorage.setItem(sk,JSON.stringify(data));
+      const rows=data.length;
+      const years=key!=='enso'?[...new Set(data.map(d=>d.year))].sort():[];
+      stEl.textContent=`✓ ${rows.toLocaleString('th-TH')} rows${years.length?` (${years[0]}–${years[years.length-1]})`:''}`; 
+      stEl.className='upload-status ok';
+      uiEl.classList.add('done'); uiEl.classList.remove('err');
+      log(`โหลด ${key}: ${rows.toLocaleString()} rows — ${file.name}`,'ok');
+      if (key.startsWith('modis')||key.startsWith('viirs')) showStats(key.split('-')[0],data);
+      if (key==='enso') showEnsoPreview(data);
+    } catch(err) {
+      stEl.textContent=`✗ ${err.message}`; stEl.className='upload-status bad';
+      uiEl.classList.add('err'); uiEl.classList.remove('done');
+      log(`Error (${key}): ${err.message}`,'err');
+    }
+  };
+  reader.readAsText(file,'utf-8');
+}
+
+function showStats(sensor,data) {
+  const el=document.getElementById(`stats-${sensor}`); if (!el) return;
+  const years=[...new Set(data.map(d=>d.year))].sort();
+  const total=data.reduce((s,d)=>s+(d.count||0),0);
+  const provinces=[...new Set(data.map(d=>d.province_en).filter(Boolean))];
+  el.innerHTML=`
+    <div class="stat"><div class="stat-label">จุดความร้อนรวม</div><div class="stat-val">${total.toLocaleString('th-TH')}</div></div>
+    <div class="stat"><div class="stat-label">ช่วงปี</div><div class="stat-val">${years[0]}–${years[years.length-1]}</div></div>
+    <div class="stat"><div class="stat-label">จังหวัด</div><div class="stat-val">${provinces.length}</div></div>`;
+}
+
+function showEnsoPreview(data) {
+  const el=document.getElementById('enso-preview');
+  const ensoClass=cat=>{ const c=(cat||'').toLowerCase(); return c.includes('el nino')?'el-nino':c.includes('la nina')?'la-nina':'neutral'; };
+  el.innerHTML=`<div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:8px">` +
+    data.map(r=>{
+      const ec=ensoClass(r.annual_category);
+      const s=ec==='el-nino'?'background:rgba(184,50,50,.1);color:#B83232;border:1px solid rgba(184,50,50,.25)':ec==='la-nina'?'background:rgba(26,79,138,.1);color:#1A4F8A;border:1px solid rgba(26,79,138,.25)':'background:var(--surface2);color:var(--text-dim);border:1px solid var(--border)';
+      return `<div style="${s};padding:2px 8px;border-radius:3px;font-size:11px;font-family:var(--mono)">${r.year}</div>`;
+    }).join('')+'</div>';
+}
+
+function checkStatus() {
+  const box=document.getElementById('log-box'); box.innerHTML='';
+  log('=== ตรวจสอบสถานะข้อมูล ===','info');
+  let total=0;
+  Object.entries(STORE_KEYS).forEach(([key,sk])=>{
+    const raw=localStorage.getItem(sk);
+    if (raw) {
+      const data=JSON.parse(raw);
+      log(`✓ ${key}: ${Array.isArray(data)?data.length.toLocaleString()+' rows':data.filename||'มีข้อมูล'}`,'ok'); total++;
+    } else { log(`✗ ${key}: ยังไม่มีข้อมูล`,'err'); }
+  });
+  log(`=== พบข้อมูล ${total}/${Object.keys(STORE_KEYS).length} รายการ ===`,'info');
+}
+
+function clearAll() {
+  if (!confirm('ยืนยันล้างข้อมูลทั้งหมด?')) return;
+  Object.values(STORE_KEYS).forEach(k=>localStorage.removeItem(k));
+  document.querySelectorAll('.upload-status').forEach(el=>{ el.textContent=''; el.className='upload-status'; });
+  document.querySelectorAll('.upload-item').forEach(el=>el.classList.remove('done','err'));
+  document.getElementById('enso-preview').innerHTML='';
+  ['stats-modis','stats-viirs'].forEach(id=>{ const el=document.getElementById(id); if(el) el.innerHTML=''; });
+  log('ล้างข้อมูลทั้งหมดแล้ว','ok');
+}
+
+function toggleTheme() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const next = isDark ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  document.getElementById('theme-btn').textContent = next === 'dark' ? '☀️' : '🌙';
+  localStorage.setItem('theme', next);
+}
+(function() {
+  const saved = localStorage.getItem('theme') || 'light';
+  document.documentElement.setAttribute('data-theme', saved);
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('theme-btn');
+    if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  });
+})();
+
+window.onload=()=>{
+  Object.entries(STORE_KEYS).forEach(([key,sk])=>{
+    const raw=localStorage.getItem(sk); if (!raw) return;
+    const data=JSON.parse(raw);
+    const stEl=document.getElementById(`st-${key}`);
+    const uiEl=document.getElementById(`ui-${key}`);
+    if (!stEl||!uiEl) return;
+    if (Array.isArray(data)) {
+      const years=data[0]?.year?[...new Set(data.map(d=>d.year))].sort():[];
+      stEl.textContent=`✓ ${data.length.toLocaleString()} rows${years.length?` (${years[0]}–${years[years.length-1]})`:''}`; 
+      stEl.className='upload-status ok'; uiEl.classList.add('done');
+      if (key.startsWith('modis')||key.startsWith('viirs')) showStats(key.split('-')[0],data);
+      if (key==='enso') showEnsoPreview(data);
+    } else if (data.filename) {
+      stEl.textContent=`✓ ${data.filename}`; stEl.className='upload-status ok'; uiEl.classList.add('done');
+    }
+  });
+};
+</script>
+</body>
+</html>
